@@ -1,0 +1,3 @@
+[submodule "db-seeder"]
+	path = db-seeder
+	url = https://github.com/ElPapi42/db-seeder
