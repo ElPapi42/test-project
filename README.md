@@ -12,6 +12,7 @@ sudo docker-compose up -d --build
 docker exec seeder-cli python seeder seeddb
 docker exec -it seeder-cli python seeder createadmin
 ```
+Alternatively, you can execute `bash init.bash` AFTER CLONE this repository for a single command startup.
 
 Then you can exec a login request for get credentials:
 ```bash
