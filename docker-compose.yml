@@ -19,3 +19,15 @@ services:
     volumes:
       - ./db-seeder:/seeder
     container_name: seeder-cli
+  
+  # FastAPI instance
+  test-api:
+    build: ./test-api
+    image: test-api
+    volumes:
+      - ./test-api:/backend
+    ports:
+      - 8000:8000
+    depends_on:
+      - mongo-database
+    container_name: test-api
