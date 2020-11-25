@@ -26,4 +26,4 @@ curl --request POST \
 ```
 WARNING: Remember to replace the last command email and password with those setup previously during admin creation phase.
 
-With the token returned in the last command, you can start issuing requests to the api. You can read the docs of the API at https://github.com/ElPapi42/test-api/blob/7b4149d8ea6ce042318928c8e7a4f075ce5464cb/README.md
+With the token returned in the last command, you can start issuing requests to the api. You can read the docs of the API at https://github.com/ElPapi42/test-api/blob/master/README.md
